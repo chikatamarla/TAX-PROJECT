@@ -111,7 +111,7 @@ body.register {
 }
 
 .navbar-title {
-    float: right;
+    float: left;
     font-weight: bolder !important;
     /* display: inline-block; */
     padding-top: .3125rem;
