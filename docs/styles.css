@@ -1,3 +1,5 @@
+
+
 body {
     /* color: #fff; */
     color: #fff !important;
@@ -9,6 +11,7 @@ body {
     font-size: 12px !important;
     line-height: 21px;
     font-family: 'Comfortaa', 'Montserrat', sans-serif, cursive;
+    
     /*'Indie Flower',*/
 }
 
@@ -43,7 +46,7 @@ body.contact {
     /* color: #fff; */
     color: #fff !important;
     /*background: green*/;
-    background-image: url("assets/images/cd.jpg");
+    background-image: url("assets/images/pen.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -331,5 +334,5 @@ i::before {
 }
 
 .contact-detail-item>.contact-detail-desc>p {
-    margin: .25rem 0rem 0rem;
+    margin: .40rem 0rem 0rem;
 }
