@@ -248,19 +248,24 @@ input[type=password]:focus {
 
 ::placeholder {
     /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: #cccccc90;
+    color: red;
+    font-size: 1.25rem;
     opacity: 1;
     /* Firefox */
 }
 
 :-ms-input-placeholder {
     /* Internet Explorer 10-11 */
-    color: #cccccc90;
+    color: red;
+    font-size: 1.25rem;
+    opacity: 1;
 }
 
 ::-ms-input-placeholder {
     /* Microsoft Edge */
-    color: #cccccc90;
+    color: red;
+    font-size: 1.25rem;
+    opacity: 1;
 }
 
 input[type=checkbox] {
@@ -312,7 +317,7 @@ input[type=checkbox] {
     align-items: flex-start !important;
     width: 100%;
     justify-content: left !important;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
 }
 
 .contact-detail-item>.contact-detail-icon>i {
@@ -328,11 +333,21 @@ i::before {
 }
 
 .contact-detail-item>.contact-detail-desc>label {
-    font-size: 16px;
+    font-size: 30px;
     color: #3993f5;
     font-weight: 800;
 }
 
 .contact-detail-item>.contact-detail-desc>p {
     margin: .40rem 0rem 0rem;
+    font-size:25px;
+    color:whitesmoke;
+}
+
+.details-container {
+    background-color: #00000050;
+    /* height: 10rem; */
+    padding: 2.5rem;
+    width: 50%;
+    border-radius: 5px;
 }
